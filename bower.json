@@ -1,0 +1,21 @@
+{
+  "name": "casino_runeta",
+  "authors": [
+    "George <yurayurakh@mail.ru>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "bootstrap-sass-grid": "^4.0.1"
+  }
+}
