@@ -8,9 +8,6 @@
   }
 }
 @media (min-width:992px) and (max-width:1199px) {
-  .header {
-    display: none;
-  }
 
   .inner-post .post-item .post-thumb img {
     width: 100%;
@@ -26,10 +23,6 @@
 }
 @media (min-width:768px) and (max-width:991px) {
 
-  .header {
-    display: none;
-  }
-
 
   .slider__item .slider-detail {
     top: 160px;
@@ -41,7 +34,6 @@
 
   .inner-post .post-item {
     text-align: center;
-    margin-bottom: 30px;
     .post-thumb {
       display: inline-block;
     }
@@ -69,10 +61,13 @@
 
 } 
 @media (max-width:767px) {
-
-  .header,section {
-    display: none;
+  .mobile-search {
+    padding-right: 0;
   }
+  .hamburger {
+    right: 60px;
+  }
+
   .follow, .post, .inner-post, .slider {
     display: block;
   }
@@ -93,9 +88,13 @@
   }
 
   .inner-post .post-item {
+    text-align: center;
     margin-bottom: 20px;
-    .post-thumb img {
-      width: 100%;
+    .post-thumb {
+      display: inline-block;
+      img {
+        width: 100%;
+      }
     }
     .post-title {
       font-size: 16px;

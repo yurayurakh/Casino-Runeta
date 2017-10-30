@@ -41,6 +41,7 @@
 .inner-post {
   padding: 40px 0 30px;
   .post-item {
+    margin-bottom: 30px;
     .post-thumb {
       position: relative;
       margin-bottom: 10px;
@@ -136,4 +137,12 @@
       }
     }
   }
+}
+
+
+
+//Page category
+
+.category .inner-post {
+  background: #ffffff;
 }
