@@ -1,0 +1,55 @@
+.header {
+  position: relative;
+  //overflow: hidden;
+  height: 70px;
+  .red-block {
+    height: 70px;
+    position: relative;
+    z-index: 2;
+    transform: skew(-15deg);
+    display: block;
+    background: linear-gradient(to top, #c10029, #eb2653);
+    padding: 15px 0 0;
+    &:before {
+      content: "";
+      background: linear-gradient(to top, #c10029, #eb2653);
+      width: 1000px;
+      height: 70px;
+      top: 0;
+      left: -999px;
+      position: absolute;
+    }
+    .logo {
+      transform: skew(15deg);
+      display: block;
+      margin-right: 10px;
+      float: left;
+    }
+    .logo-sub-title {
+      float: left;
+      display: block;
+      padding: 10px 0;
+      color: #ffffff;
+      opacity: .3;
+      border-left: 1px solid #ffffff;
+      span {
+        display: inline-block;
+        transform: skew(15deg);
+        margin-left: 15px;
+      }
+    }
+  }
+  .search {
+    height: 70px;
+    z-index: 2;
+    span {
+      cursor: pointer;
+      overflow: hidden;
+      display: block;
+    }
+    img {
+      width: 100%;
+      display: block;
+    }
+  }
+}

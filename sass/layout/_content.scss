@@ -1,0 +1,139 @@
+//Homapage
+.slider {
+  max-width: 1920px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0;
+  &__item {
+    position: relative;
+    text-align: center;
+    &_img {
+      img {
+        margin: 0 auto;
+        display: block;
+        width: 100%;
+        max-width: 1920px;
+        max-height: 630px;
+      }
+    }
+    .slider-detail {
+      position: absolute;
+      top: 200px;
+      left: 0;
+      right: 0;
+      margin: auto;
+    }
+    &_title {
+      font-size: 60px;
+      font-family: $BebasBold;
+      text-transform: uppercase;
+      color: #ffffff;
+      margin-bottom: 30px;
+    }
+
+    &_sub-title {
+      font-size: 18px;
+      color: #ffffff;
+      margin-bottom: 60px;
+    }
+  }
+}
+.inner-post {
+  padding: 40px 0 30px;
+  .post-item {
+    .post-thumb {
+      position: relative;
+      margin-bottom: 10px;
+      img {
+        width: auto;
+        max-width: 585px;
+      }
+      .post-category {
+        position: absolute;
+        bottom: 20px;
+        left: 0;
+        color: #ffffff;
+        padding: 13px 15px;
+        background: #0096ff;
+        font-size: 16px;
+        font-family: $main_font_familyBold;
+      }
+    }
+    .post-title {
+      font-size: 24px;
+      font-family: $PTSerifRegular;
+      margin-bottom: 10px;
+    }
+    .post-content {
+      overflow: hidden;
+      max-height: 50px;
+      position: relative;
+      font-size: 16px;
+      margin-bottom: 10px;
+      line-height: 16px;
+    }
+  }
+  .post-comment {
+    font-size: 14px;
+    a {
+      text-decoration: underline;
+      color: #b20b2f;
+    }
+  }
+}
+.follow {
+  text-align: center;
+  color: #fff;;
+  &__title {
+    font-size: 48px;
+    font-family: $PTSerifRegular;
+    line-height: 60px;
+    margin-bottom: 10px;
+  }
+  &__sub-title {
+    font-size: 24px;
+    font-family: $PTSerifRegular;
+    color: #a3e2ff;
+    margin-bottom: 40px;
+  }
+
+  //Follow form
+  &-form {
+    form {
+      position: relative;
+      width: 35%;
+      margin: 0 auto;
+      .follow-field {
+        width: 100%;
+        border-radius: 25px;
+        border: none;
+        height: 50px;
+        background: rgba(255,255,255,.2);
+        color: $main_font_color;
+        padding: 0 135px 0 20px;
+        &:active, &:focus {
+          outline: none;
+        }
+      }
+      .follow-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 50px;
+        color: #333333;
+        font-size: 18px;
+        font-family: $main_font_familyBold;
+        border: none;
+        background: #ffffff;
+        border-radius: 25px;
+        padding: 0 17px;
+        &:hover {
+          //background: #a3e2ff;
+        }
+        &:active, &:focus {
+          outline: none;
+        }
+      }
+    }
+  }
+}

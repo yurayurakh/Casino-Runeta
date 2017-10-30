@@ -1,0 +1,23 @@
+.footer {
+  position: relative;
+  padding: 20px 0;
+  background: #eff4f7;
+  .copyright {
+    margin-top: 3px;
+    text-align: right;
+    color: #333333;
+  }
+  .social {
+    text-align: right;
+    padding-right: 20px;
+    &__item {
+      margin-left: 10px;
+      display: inline-block;
+      opacity: .2;
+      transition: opacity .3s ease;
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}
