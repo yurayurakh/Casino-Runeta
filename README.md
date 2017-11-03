@@ -1,1 +1,1 @@
-# Casino-Runeta Blog
+# Casino-Runeta Wordpress Theme Blog
